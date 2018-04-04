@@ -1,21 +1,54 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <% if (page.search) { %>
     <%- partial('_partial/search') %>
-  <% } %>
-  <%- partial('_partial/post/gallery') %>
-  <div class="content" itemprop="articleBody">
-    <%- page.content %>
-  </div>
+      <% } %>
+        <%- partial('_partial/post/gallery') %>
+          <div class="content" itemprop="articleBody">
+            <%- page.content %>
+          </div>
 </article>
 <% if (is_current('/projects')) { %>
   <section id="projects">
-    <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
+    <span class="h1">
+      <a href="<%- url_for(theme.projects_url) %>">
+        <%= __('index.projects') %>
+      </a>
+    </span>
     <ul class="project-list">
       <% for(var obj in site.data.projects){ %>
         <li class="project-item">
-          <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%= site.data.projects[obj].desc %>
+          <a href="<%= site.data.projects[obj].url %>">
+            <%= site.data.projects[obj].name %>
+          </a>:
+          <%= site.data.projects[obj].desc %>
         </li>
-      <% } %>
+        <% } %>
     </ul>
   </section>
   <% } %>
+    <% if (is_current('/categories')) { %>
+      <section id="projects">
+        <%var cate={}%>
+          <span class="h1">
+            <a href="<%- url_for('categories') %>">
+              Categories
+            </a>
+          </span>
+          <%site.categories.find({}).forEach(function(data){
+              %>
+            <%cate[data.name]=data.permalink;%>
+              <ul class="project-list">
+                <% var se=0;%>
+                <% for(item of data.slug.split('/')){%>
+                  <li class="project-item" >
+                    <a href="<%= cate[item] %>" style="padding-left:<%=se*10%>">
+                      <%= item %>
+                    </a>
+                  </li>
+                  <%se++%>
+                  <%}%>
+              </ul>
+              <%}) %>
+
+      </section>
+      <% } %>

@@ -82,6 +82,14 @@ githubEmojis:
 
 # minified resource
 all_minifier: false
+
+category_generator:
+  per_page: 10
+
+auto_dir_categorize:
+	enable: true  # options:true, false; default is true
+  force: false # options:true, false; default is false
+  
 ## Themes: https://hexo.io/themes/
 theme: cactus
 
