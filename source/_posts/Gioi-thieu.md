@@ -1,6 +1,7 @@
 title: Giới thiệu
 author: Ginne
-tags: []
+tags:
+  - introduction
 categories:
   - ..
 date: 2018-04-04 18:06:00
