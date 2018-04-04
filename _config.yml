@@ -79,7 +79,9 @@ githubEmojis:
   styles:
     display: inline
     vertical-align: bottom
-  
+
+# minified resource
+all_minifier: false
 ## Themes: https://hexo.io/themes/
 theme: cactus
 
@@ -89,3 +91,9 @@ deploy:
   type: git
   repo: https://github.com/ginneversmile/ginneversmile.github.io.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: hirosume
+  password_hash: $2a$10$QjwSdMmzeGeHDJedfEz.1.1i3BInp81ZHQnp7.Ck.V8icXQcDbovO
+  secret: ginichimaru
