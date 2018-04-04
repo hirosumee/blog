@@ -1,0 +1,21 @@
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <% if (page.search) { %>
+    <%- partial('_partial/search') %>
+  <% } %>
+  <%- partial('_partial/post/gallery') %>
+  <div class="content" itemprop="articleBody">
+    <%- page.content %>
+  </div>
+</article>
+<% if (is_current('/projects')) { %>
+  <section id="projects">
+    <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
+    <ul class="project-list">
+      <% for(var obj in site.data.projects){ %>
+        <li class="project-item">
+          <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%= site.data.projects[obj].desc %>
+        </li>
+      <% } %>
+    </ul>
+  </section>
+  <% } %>
