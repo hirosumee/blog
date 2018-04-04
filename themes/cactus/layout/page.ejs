@@ -27,7 +27,7 @@
   </section>
   <% } %>
     <% if (is_current('/categories')) { %>
-      <section id="projects">
+      <section id="categories">
         <%var cate={}%>
           <span class="h1">
             <a href="<%- url_for('categories') %>">
@@ -41,14 +41,13 @@
                 <% var se=0;%>
                 <% for(item of data.slug.split('/')){%>
                   <li class="project-item" >
-                    <a href="<%= cate[item] %>" style="padding-left:<%=se*10%>">
-                      <%= item %>
+                    <a href="<%= cate[item] %>" style="margin-left:<%=se*10%>px">
+                      * <%= item %>
                     </a>
                   </li>
                   <%se++%>
                   <%}%>
               </ul>
               <%}) %>
-
       </section>
       <% } %>

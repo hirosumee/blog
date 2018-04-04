@@ -36,7 +36,6 @@
           </p>
           <% } %>
 </section>
-
 <section id="writing">
   <span class="h1">
     <a href="<%- url_for(" archives ") %>">
@@ -55,6 +54,10 @@
                     <span>
                       <%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %>
                     </span>
+                    <span>
+                      <%- partial('_partial/post/tag',{page:post}) %>
+                    </span>
+                    
                 </li>
                 <% }); %>
   </ul>
