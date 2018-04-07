@@ -1,1 +1,1 @@
-web: hexo server
+web: node index
