@@ -42,3 +42,37 @@ Cách chia hiệu quả nhất là :
 {% asset_img quickSort.png quicksort %}
 
 ### Mã nguồn :
+
+{% codeblock lang:python %}
+arr = [1, 3, 4, 2, 5, 6, 4, 7]
+
+
+# enter input data
+def quicksort(left, right):
+    if left < right:
+        pivot = int((left + right) / 2)
+        x = left
+        y = right
+        while x <= y:
+            while arr[x] < arr[pivot]:
+                x += 1
+            while arr[y] > arr[pivot]:
+                y -= 1
+            if x <= y:
+                arr[x], arr[y] = arr[y], arr[x]
+                x += 1
+                y -= 1
+        # if left < y:
+        #     quicksort(left, y)
+        # if right > x:
+        #     quicksort(x, right)
+        if left < y:
+            quicksort(left, y)
+            quicksort(y+1, right)
+
+
+quicksort(0, len(arr) - 1)
+
+print(arr)
+
+{% endcodeblock %}
