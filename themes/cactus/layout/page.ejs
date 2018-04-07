@@ -26,7 +26,6 @@
     </ul>
   </section>
 <% } %>
-
 <% if (is_current('/categories')) { %>
       <section id="categories">
         <%var cate={}%>
@@ -35,11 +34,9 @@
               Categories
             </a>
           </span>
-
           <%site.categories.find({}).forEach(function(data){%>
             <%cate[data.name]=data.permalink;%>
           <%}) %>
-
           <%site.categories.find({}).forEach(function(data){%>
             <ul class="project-list">
               <% var se=0;%>
