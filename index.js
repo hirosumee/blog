@@ -7,7 +7,7 @@ hexoProcess.stdout.on('data', (data) => {
 });
 
 function autoload() {
-    setInterval(() => {
+    setTimeout(() => {
         http.get('https://minblog.herokuapp.com', function () {
             autoload();
         });
