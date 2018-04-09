@@ -13,7 +13,7 @@ Bắt đầu series giải thuật . Trong bài viết này mình sẽ giới th
 ### QuickSort là gì ?
 Quick sort là : 
 + là một kiểu sắp xếp phân chia ( part sort )
-+ là một thuật toán chia để trị ( conquer ) giống với Merge Sort
++ là một thuật toán chia để trị ( divide and conquer ) giống với Merge Sort
 
 ### Phân tích :
 Ý tưởng của quick sort trình bày như sau :   

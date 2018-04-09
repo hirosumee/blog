@@ -28,29 +28,17 @@
 <% } %>
 <% if (is_current('/categories')) { %>
       <section id="categories">
-        <%var cate={}%>
           <span class="h1">
             <a href="<%- url_for('categories') %>">
               Categories
             </a>
           </span>
-          <%site.categories.find({}).forEach(function(data){%>
-            <%cate[data.name]=data.permalink;%>
+          <ul class="project-item">
+          <% site.categories.find({}).forEach(function(data){ %>
+            <li>
+              <a href="<%= data.permalink%>"><%=data.name%></a>
+            </li>
           <%}) %>
-          <%site.categories.find({}).forEach(function(data){%>
-            <ul class="project-list">
-              <% var se=0;%>
-                <% for( var item of data.slug.split('/') ){ %>
-                  <%if( item ){ %>
-                    <li class="project-item" >
-                      <a href="<%= cate[item] %>" style="margin-left:<%=se*10%>px">
-                        * <%= item %>
-                      </a>
-                    </li>
-                    <% se++ %>
-                  <%}%>
-                <%}%>
-              </ul>
-              <%})%>
+          </ul>
       </section>
 <% } %>
