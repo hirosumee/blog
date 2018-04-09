@@ -6,11 +6,11 @@ hexoProcess.stdout.on('data', (data) => {
     console.log(data.toString());
 });
 
-function autoload() {
-    setTimeout(() => {
+function autoload(http) {
+    setTimeout((http) => {
         http.get('https://minblog.herokuapp.com', function () {
             autoload();
         });
-    }, 300000);
+    }, 300000,http);
 }
-autoload();
+autoload(http);
