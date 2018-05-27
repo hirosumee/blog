@@ -25,8 +25,8 @@ body{
     </div>
     <div class="col-8">
         <p style="font-family: 'Raleway', sans-serif;">I'm Vu Ngoc Cuong , a junior student in Posts and Telecomunications Institute of Technology Ha Noi (PTIT Ha Noi) .</p>
-        <p style="font-family: 'Raleway', sans-serif;">I have knowledge of  OOP , AngularJS , Node.js , Bootstrap , And a bit of PHP, Typescript , Docker , Linux distribution . Also I learned C++,Java, Algorithm and Structure in my study program at school .Latest recently , I learned ReactJS for planting upgrade a pet project called "Chat Channel". Learning and discovering new languages , technologies is what i am passionate about .</p>
-        <p style="font-family: 'Raleway', sans-serif;">I identify myself as sociable , friendly . I always help other peoples who have some problem in their code in some facebook groups.</p>
+        <p style="font-family: 'Raleway', sans-serif;">I have knowledge of  OOP , AngularJS , Node.js , Bootstrap , And a bit of PHP, Typescript , Docker , Linux distribution . Besides i learned C++,Java, Algorithm and Structure in my curriculum at school . Latest recently , I learned ReactJS for planting upgrade a pet project called "Chat Channel" . Learning and discovering new languages , technologies is what i am passionate about .</p>
+        <p style="font-family: 'Raleway', sans-serif;">I identify myself as sociable , friendly . I always help other peoples who have some problem in their code in some facebook groups. I have never joined any projects or work for any organizations . You can browse through my github . It contains my mini projects which was contructed with crazy ideas . But a few in them aren't completed . Because i must be balance with my curriculum .</p>
     </div>
 </div>
 
