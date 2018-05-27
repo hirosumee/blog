@@ -21,6 +21,7 @@ body{
             <i class="fas fa-mobile">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> +841 699 100 800</span></i>
             <i class="fas fa-envelope">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> ginneversmile</span></i>
             <i class="fas fa-cloud">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> hirosume.tk</span></i>
+            <i class="fas fa-code-branch">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> github/shentury</span></i>
       <a class="btn btn-success" style="font-family: 'Raleway', sans-serif;font-size:10px;" href="http://ginfile.herokuapp.com/file/info/5b09099de1fa190014b34ae8">Download CV</a>
     </div>
     <div class="col-8">
