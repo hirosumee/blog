@@ -23,13 +23,13 @@ body{
             <i class="fas fa-envelope">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> ginneversmile</span></i>
             <i class="fas fa-cloud">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> hirosume.tk</span></i>
             <i class="fas fa-code-branch">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> github/shentury</span></i>
-      <a class="btn btn-success" style="font-family: 'Raleway', sans-serif;font-size:10px;width:min-content;" href="https://ginfile.herokuapp.com/file/info/5b0c9ff0a5cc570014d008a8">Download CV</a>
+      <a class="btn btn-success" style="font-family: 'Raleway', sans-serif;font-size:10px;width:min-content;" href="https://drive.google.com/file/d/1sPjJghgrO6FIb-Z_zeSRaph5vrEqaHvE/view">Download CV</a>
       </div>
     </div>
     <div class="col-8">
         <p style="font-family: 'Raleway', sans-serif;">I'm Vu Ngoc Cuong , a junior student in Posts and Telecomunications Institute of Technology Ha Noi (PTIT Ha Noi) .</p>
-        <p style="font-family: 'Raleway', sans-serif;">I have knowledge of  OOP , AngularJS , Node.js , Bootstrap , And a bit of PHP, Typescript , Docker , Linux distribution . Besides i learned C++,Java, Algorithm and Structure in my curriculum at school . Latest recently , I learned ReactJS for planting upgrade a pet project called "Chat Channel" . Learning and discovering new languages , technologies is what i am passionate about .</p>
-        <p style="font-family: 'Raleway', sans-serif;">I identify myself as sociable , friendly . I always help other peoples who have some problem in their code in some facebook groups. I have never joined any projects or work for any organizations . You can browse through my github . It contains my mini projects which was contructed with crazy ideas . But a few in them aren't completed . Because i must be balance with my curriculum .</p>
+        <p style="font-family: 'Raleway', sans-serif;">I have knowledge of  OOP , AngularJS , Node.js , Bootstrap . And a bit of PHP, Typescript , Docker , Linux distribution . Besides i learned C++,Java, Algorithm and Structure in my curriculum at school . Latest recently , I learned ReactJS for planting upgrade a pet project called "Chat Channel" . Learning and discovering new languages , technologies is what i am passionate about .</p>
+        <p style="font-family: 'Raleway', sans-serif;">I identify myself as sociable , friendly . I always help other peoples who have some problem in their code in some facebook groups . You can browse through my github . It contains my mini projects which was contructed with crazy ideas .</p>
     </div>
 </div>
 
