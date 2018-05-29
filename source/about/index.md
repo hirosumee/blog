@@ -14,15 +14,17 @@ body{
 <h2 align="center" style="font-family: 'Raleway', sans-serif;">Summary</h2>
 <div class="row">
     <div class="col-4">
-        <img src="https://img00.deviantart.net/1066/i/2012/042/f/a/brook_flag_symbol___timeskip_by_zerocustom1989-d4pe483.png" alt="my photo"
+        <img src="https://i.imgur.com/Xy0zgRR.jpg" alt="my photo"
             class="rounded-circle">
+      <div class="" style="margin-top:-30px;">
         <h5 align="center" style="font-family: 'Raleway', sans-serif;">Contact Info</h5>
             <i class="fas fa-map-marker-alt">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> Thanh Xuan , Ha Noi</span></i>
             <i class="fas fa-mobile">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> +841 699 100 800</span></i>
             <i class="fas fa-envelope">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> ginneversmile</span></i>
             <i class="fas fa-cloud">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> hirosume.tk</span></i>
             <i class="fas fa-code-branch">  <span style="font-family: 'Raleway', sans-serif;font-size:12px;"> github/shentury</span></i>
-      <a class="btn btn-success" style="font-family: 'Raleway', sans-serif;font-size:10px;" href="http://ginfile.herokuapp.com/file/info/5b09099de1fa190014b34ae8">Download CV</a>
+      <a class="btn btn-success" style="font-family: 'Raleway', sans-serif;font-size:10px;width:min-content;" href="https://ginfile.herokuapp.com/file/info/5b0c9ff0a5cc570014d008a8">Download CV</a>
+      </div>
     </div>
     <div class="col-8">
         <p style="font-family: 'Raleway', sans-serif;">I'm Vu Ngoc Cuong , a junior student in Posts and Telecomunications Institute of Technology Ha Noi (PTIT Ha Noi) .</p>
